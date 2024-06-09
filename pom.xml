@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.example.MapStruct</groupId>
     <artifactId>MapStructArray</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>MapStructArray</name>
     <description>MapStructArray</description>
     <properties>
@@ -51,6 +51,18 @@
             <artifactId>kotlin-test-junit5</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct-processor</artifactId>
+            <version>1.5.5.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct</artifactId>
+            <version>1.5.5.Final</version>
+        </dependency>
+
+
 
     </dependencies>
 
